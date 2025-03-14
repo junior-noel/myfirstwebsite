@@ -1,0 +1,34 @@
+body{
+    font-family: ;
+}
+header{
+    background-image: linear-gradient(#c7bee6, #8b6fe6, #364167);
+}
+.navbar-brand,
+.text-primary {
+    color: #0a58ca ;
+}
+.nav-link {
+    font-weight: 500;
+    
+}
+.btn-primay {
+    background-color: #0a58ca;
+    border: none;
+    
+}
+.btn-primay:hover {
+    background-color: #94baf2;
+    border: none;
+}
+.nav-link:hover {
+    color: #0a58ca;
+}
+.blue-bg {
+    background-color: #0a58ca;
+    color: white;
+}
+#image {
+    width: 500px;
+    height: 300px;
+}
