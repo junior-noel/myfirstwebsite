@@ -5,32 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noel tECH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+    <link rel="stylesheet" type="text/css" href="contact.css">
+       
    
 </head>
-
-<body style="background-color: black;">
-
-
-  <nav class="navbar navbar-expand-lg bg-info">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">NoelTech</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<body style="background-image: url('./images/download.jpg'); ">
+  
+ <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container ">
+      <a class="navbar-brand fw-bold fs-2" href="#"><span style="color: green;">Noel</span><span style="color: red;">tech</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="noel_tech.html">Home</a>
-          <a class="nav-link" href="./aboutpage/aboutpage.html">About</a>
-          <a class="nav-link" href="#">Product</a>
-          
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ms-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-5" aria-current="page" href="noel_tech.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="aboutpage/aboutpage.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 px-4 py-2 ms-2" href="./product.html">Products</a>
+          </li>
+          <li class="nav-item">
+           
+            <a class="nav-link btn fs-5 btn-primary text-white fs-5" href="./contact.html">contact</a>
+          </li>
+
+        </ul>
       </div>
     </div>
   </nav>
+   <!-- hero section --->
+<section>
+<div class="container pt-5 bg-info">
+<div class="row align-item-center justify-content-center bg-info">
+    <div class="col-12 col-lg-6">
+        <h1 class="display-4 fw-bold"></h1>
+        <h1><span style="color: blue;">Discover</span> the Future of Tech</h1>
+        <p class="lead pb-2 pt-4">
+            Explore our latest gadget and accessories design to elavate your digital lifestyle
+        </p>
+        <button class="btn btn-primary px-5 py-3 d-inlione-block">Shop Now</button>
+    </div>
+    <div class="col-12 col-lg-6">
+      <img src="./image.png" class="img-fluid pb-5" id="img2">
+  </div>
+</div>
+</div>
+
+  
 
 
-  <div class="card mb-3" style=" max-width: 540px; ">
+  <div class="card mb-3  mx-auto h-75 mt-5" style=" max-width: 540px; ">
     <div class="row g-0">
       <div class="col-md-4 bg-info">
         <img src="./289.png"  class="img-fluid rounded-circle" alt="My Profile Picture">
@@ -40,37 +68,89 @@
         Email<ion-icon name="mail-outline"></ion-icon>:<span  style="color: blue;"><i><u>mbohbenehjunior@mail.com</u></i></span>
       </span>
       </div>
+      
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Fill in the info below</h5>
-          <p class="card-text"><label for="inputPassword5" class="form-label">Email</label>
-            <input type="email" id="email" class="form-control" aria-describedby="emailHelpBlock">
-            <div id="email" class="form-text">Username
-              
-            </div>
-            <input type="text" id="username" class="form-control" aria-describedby="passwordHelpBlock">
-            <div id="username" class="form-text">Password
-              
-            </div>
-            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-            <div id="passwordHelpBlock" class="form-text">
-              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-            </div>
-          </p>
-          <button type="button" class="btn btn-outline-success">Submit</button>
-
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
+          
+          <label for="emailInput" class="form-label">Email</label>
+          <input type="email" id="emailInput" class="form-control" aria-describedby="emailHelpBlock">
+          <div id="emailHelpBlock" class="form-text">Enter your email address.</div>
       </div>
+
+      <label for="userformInput" class="form-label">Userform</label>
+          <input type="userform" id="userformInput" class="form-control" aria-describedby="emailHelpBlock">
+          <div id="emailHelpBlock" class="form-text">Enter your userform.</div>
+      </div>
+              
+      <div class="mb-3">
+        <label for="passwordInput" class="form-label">Password</label>
+        <input type="password" id="passwordInput" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+        </div>
     </div>
-  </div>
-  
-    
+    <button type="submit" class="btn btn-outline-success">Submit</button>
+</form>
+<p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+</div>
+</div>
+</div>
+</div>
+
+
+  Key Features
+</h2>
+</div>
+</div>
+<div class="row mt-2 g-4">
+<div class="col-12 col-lg-4">
+<div class="card p-3">
+<ion-icon name="bulb-outline" class="icons">
+</ion-icon>
+<h3></h3> Innovative technology></h3>
+<p class="card-text"></p>
+Explore products following the latest aria-expanded
+most binnovative technology
+</p>
+</div>
+</div>
+<div class="col-12 col-lg-4">
+<div class="card p-3 blue-bg">
+<ion-icon name="time-outline" class="icons">
+</ion-icon>
+<h3></h3>Timely Delivery</h3>
+<p class="card-text"></p>
+Explore products following the latest aria-expanded
+most binnovative technology
+</p>
+</div>
+</div>
+<div class="col-12 col-lg-4">
+<div class="card p-3">
+<ion-icon name="shield-checkmark-outline" class="icons">
+</ion-icon>
+<h3></h3>Quality assurance</h3>
+<p class="card-text"></p>
+Explore products following the latest aria-expanded
+most binnovative technologies
+</p>
+</div>
+</div>
+</div>
+</section>
+<div class="container py-5">
+<div class="row">
+<div class="col-12">
+<h2 class="text-primary fs-1 fw-bold mb-3 text-center">
  
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="contact.js"></script>
+
 </body>
 <html>
